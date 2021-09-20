@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/09/2021, 6:50:34 p. m.
+    Author     : JHONATAN QUINTERO
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#navegacion{
+    float: right;
+    /*width: 500%;*/
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#link_Registro{
+    float: right;
+    margin-top: 10px;
+    /*margin-right: 40px;*/
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 3px;
+}    
+
+#link_Registro:hover{
+    background-color: black;
+    color: white;
+}
+
+#link_Registro:active{
+    background-color: violet;
+}
+
+#container h1{
+    text-align: center;
+}
+#container p{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+
+#form_registrarse{
+    background-color: rgba(0, 0, 0, 0.05);
+    width: 350px;
+}
+
+#form_registrarse input{
+    display: block;
+    margin-top: 10px;
+    font-size: 15px;
+    width: 93%;
+}
+
+#aspecto{
+    float: right;
+    font-size: 20px;
+    margin: 10px
+    
+}
+
+.dark{
+    background-color: black;
+    
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+}
+
+.header { grid-area: 1 / 1 / 2 / 5; }
+
+.vertical-nav { grid-area: 2 / 4 / 6 / 5; }
+
+.section { grid-area: 2 / 1 / 5 / 4; }
+
+.footer { grid-area: 5 / 1 / 6 / 5; }
+
+

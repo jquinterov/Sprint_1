@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilos.css"/>
+		
+		<style>
+		  html,body {
+			  height:100%;
+			  width:100%;
+			  margin:0;
+			}
+			body {
+			  display:flex;
+			  flex-direction:column;
+			  text-align:center;
+			}
+			form {
+			  margin:auto;/* nice thing of auto margin if display:flex; it center both horizontal and vertical :) */
+			}
+			
+			.input{
+				padding:10px;border-radius:4px;
+			}
+		</style>
+    </head>
+    <body>
+	<div>
+        <div style="padding:30px 0px 30px 0px;font-weight:bold;font-size:40px">Reg&iacute;strate</div>
+        <form action="" id="form_registrarse" style="padding:20px">
+            <input type="text" id="in_nombre_usuario" placeholder="Nombre" class="input">
+            <input type="password" id="in_contrasena" placeholder="Contraseña" class="input">
+            <input type="password" id="in_confirmar_contrasena" placeholder="Contraseña" class="input">
+            <button id="btn_registrar_usuario" style="margin-top:15px;padding:10px;font-size:18px">Regístrarse</button>
+        </form>
+    </div>
+        
+    </body>
+</html>
