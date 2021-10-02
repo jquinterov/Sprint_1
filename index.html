@@ -8,10 +8,8 @@ and open the template in the editor.
     <head>
         <title>Titulo Pagina</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="description" content="Descripción de mi p´ágina en el motor de busqueda">
-        <link rel="stylesheet" href="./estilos.css" type="text/css"/>
-        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./estilos.css"/>
 <style>
  body {
    display: grid;
@@ -41,11 +39,9 @@ and open the template in the editor.
    text-align:center;
  }
  
-
 </style>		
     </head>
-    
-	<body>
+    <body>
         <nav id="vertical_navbar" class="item-2">
 		
             <div>
@@ -64,7 +60,12 @@ and open the template in the editor.
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
             </p>
         </main>
-        
+        <form action="" id="form_registrarse" style="padding:20px">
+            <input type="text" id="in_nombre_usuario" placeholder="Nombre" class="input">
+            <input type="password" id="in_contrasena" placeholder="Contraseña" class="input">
+            <input type="password" id="in_confirmar_contrasena" placeholder="Contraseña" class="input">
+            <button id="btn_registrar_usuario" style="margin-top:15px;padding:10px;font-size:18px">Regístrarse</button>
+        </form>
         
     </body>
 </html>
